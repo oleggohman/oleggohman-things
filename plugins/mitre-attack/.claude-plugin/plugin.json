@@ -6,7 +6,7 @@
     "name": "oleggohman"
   },
   "homepage": "https://github.com/oleggohman/mitre-attack-mcp",
-  "repository": "https://github.com/oleggohman/oleggohman-things",
+  "repository": "https://github.com/oleggohman/cc-things",
   "license": "Apache-2.0",
   "mcpServers": {
     "mitre-attack": {

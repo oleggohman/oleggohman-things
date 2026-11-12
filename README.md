@@ -1,12 +1,12 @@
-# oleggohman-things
+# cc-things
 
 Claude Code plugin marketplace.
 
 ## Install
 
 ```
-/plugin marketplace add oleggohman/oleggohman-things
-/plugin install <plugin>@oleggohman-things
+/plugin marketplace add oleggohman/cc-things
+/plugin install <plugin>@oleggohman-cc-things
 ```
 
 ## Plugins
