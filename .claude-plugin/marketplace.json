@@ -9,6 +9,36 @@
       "name": "mitre-attack",
       "source": "./plugins/mitre-attack",
       "description": "MITRE ATT&CK / ATLAS MCP server plus a skill for mapping incidents, alerts and cloud events to techniques, mitigations and detections"
+    },
+    {
+      "name": "whatsapp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/oleggohman/whatsapp-mcp.git"
+      },
+      "description": "WhatsApp MCP server: search, read and send your personal WhatsApp messages and media through a local Go bridge (whatsmeow)",
+      "version": "0.1.0",
+      "author": {
+        "name": "oleggohman"
+      },
+      "homepage": "https://github.com/oleggohman/whatsapp-mcp",
+      "license": "MIT",
+      "strict": false,
+      "mcpServers": {
+        "whatsapp": {
+          "type": "stdio",
+          "command": "uv",
+          "args": [
+            "--directory",
+            "${CLAUDE_PLUGIN_ROOT}/whatsapp-mcp-server",
+            "run",
+            "main.py"
+          ],
+          "env": {
+            "WHATSAPP_STORE_DIR": "${CLAUDE_PLUGIN_DATA}/store"
+          }
+        }
+      }
     }
   ]
 }
