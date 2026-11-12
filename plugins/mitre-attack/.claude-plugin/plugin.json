@@ -1,0 +1,24 @@
+{
+  "name": "mitre-attack",
+  "description": "MITRE ATT&CK / ATLAS MCP server plus a skill for mapping incidents, alerts and cloud events to techniques, mitigations and detections",
+  "version": "0.1.0",
+  "author": {
+    "name": "Oleg Gohman"
+  },
+  "homepage": "https://github.com/oleggohman/mitre-attack-mcp",
+  "repository": "https://github.com/oleggohman/oleggohman-things",
+  "license": "Apache-2.0",
+  "mcpServers": {
+    "mitre-attack": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "--from",
+        "git+https://github.com/oleggohman/mitre-attack-mcp",
+        "mitre-mcp-server"
+      ]
+    }
+  }
+}

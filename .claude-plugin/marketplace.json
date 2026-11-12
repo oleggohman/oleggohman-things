@@ -1,0 +1,14 @@
+{
+  "name": "oleggohman-things",
+  "owner": {
+    "name": "Oleg Gohman"
+  },
+  "description": "Oleg Gohman's Claude Code plugins: MCP servers and skills for security and productivity",
+  "plugins": [
+    {
+      "name": "mitre-attack",
+      "source": "./plugins/mitre-attack",
+      "description": "MITRE ATT&CK / ATLAS MCP server plus a skill for mapping incidents, alerts and cloud events to techniques, mitigations and detections"
+    }
+  ]
+}
