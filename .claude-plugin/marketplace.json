@@ -14,10 +14,12 @@
       "name": "whatsapp",
       "source": {
         "source": "url",
-        "url": "https://github.com/oleggohman/whatsapp-mcp.git"
+        "url": "https://github.com/oleggohman/whatsapp-mcp.git",
+        "ref": "v0.2.0",
+        "sha": "07973e9501514746ad2f71a7c3955d684c9e5f16"
       },
       "description": "WhatsApp MCP server: search, read and send your personal WhatsApp messages and media through a local Go bridge (whatsmeow)",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "oleggohman"
       },
