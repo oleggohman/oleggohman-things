@@ -1,9 +1,9 @@
 {
   "name": "oleggohman-things",
   "owner": {
-    "name": "Oleg Gohman"
+    "name": "oleggohman"
   },
-  "description": "Oleg Gohman's Claude Code plugins: MCP servers and skills for security and productivity",
+  "description": "Claude Code plugins by oleggohman: MCP servers and skills for security and productivity",
   "plugins": [
     {
       "name": "mitre-attack",
